@@ -1,0 +1,6 @@
+operation,time_ms,complexity,notes
+Policy forward pass,0.8,O(d_h^2),"Illustrative controller-side component timing"
+Lyapunov evaluation,1.2,O(d_h^2),"Illustrative controller-side component timing"
+Safety filter,2.0,O(|A|),"Illustrative controller-side component timing"
+Consensus communication,1.0,O(k d),"Illustrative controller-side component timing"
+Illustrative controller-side subtotal,5.0,O(n d_h^2),"Excludes environment stepping, logging, optimizer/update bookkeeping"

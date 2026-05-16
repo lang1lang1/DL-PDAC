@@ -1,0 +1,72 @@
+[
+  {
+    "variant_label": "tradeoff_k1",
+    "num_runs": 10,
+    "mean_eval_reward": 1023.51,
+    "sem_eval_reward": 1.11,
+    "mean_eval_episode_violation_rate_percent": 0.2,
+    "sem_eval_episode_violation_rate_percent": 0.2,
+    "mean_reward_auc": 810.33,
+    "sem_reward_auc": 1.22,
+    "mean_total_scalars_per_step": 11773,
+    "mean_latency_ms_per_step": 132.74,
+    "sem_latency_ms_per_step": 0.16,
+    "source": "paper Table communication trade-off n=20"
+  },
+  {
+    "variant_label": "tradeoff_k2",
+    "num_runs": 10,
+    "mean_eval_reward": 1022.47,
+    "sem_eval_reward": 1.25,
+    "mean_eval_episode_violation_rate_percent": 1.0,
+    "sem_eval_episode_violation_rate_percent": 0.77,
+    "mean_reward_auc": 810.55,
+    "sem_reward_auc": 1.47,
+    "mean_total_scalars_per_step": 22926,
+    "mean_latency_ms_per_step": 133.52,
+    "sem_latency_ms_per_step": 0.29,
+    "source": "paper Table communication trade-off n=20"
+  },
+  {
+    "variant_label": "tradeoff_k3",
+    "num_runs": 10,
+    "mean_eval_reward": 1023.32,
+    "sem_eval_reward": 1.04,
+    "mean_eval_episode_violation_rate_percent": 0.4,
+    "sem_eval_episode_violation_rate_percent": 0.4,
+    "mean_reward_auc": 811.36,
+    "sem_reward_auc": 0.81,
+    "mean_total_scalars_per_step": 33460,
+    "mean_latency_ms_per_step": 133.69,
+    "sem_latency_ms_per_step": 0.42,
+    "source": "paper Table communication trade-off n=20"
+  },
+  {
+    "variant_label": "tradeoff_k4",
+    "num_runs": 10,
+    "mean_eval_reward": 1023.39,
+    "sem_eval_reward": 1.04,
+    "mean_eval_episode_violation_rate_percent": 0.0,
+    "sem_eval_episode_violation_rate_percent": 0.0,
+    "mean_reward_auc": 811.48,
+    "sem_reward_auc": 1.38,
+    "mean_total_scalars_per_step": 43374,
+    "mean_latency_ms_per_step": 133.70,
+    "sem_latency_ms_per_step": 0.92,
+    "source": "paper Table communication trade-off n=20"
+  },
+  {
+    "variant_label": "tradeoff_full",
+    "num_runs": 10,
+    "mean_eval_reward": 1023.31,
+    "sem_eval_reward": 1.05,
+    "mean_eval_episode_violation_rate_percent": 0.2,
+    "sem_eval_episode_violation_rate_percent": 0.2,
+    "mean_reward_auc": 812.51,
+    "sem_reward_auc": 0.56,
+    "mean_total_scalars_per_step": 117730,
+    "mean_latency_ms_per_step": 132.73,
+    "sem_latency_ms_per_step": 0.47,
+    "source": "paper Table communication trade-off n=20"
+  }
+]

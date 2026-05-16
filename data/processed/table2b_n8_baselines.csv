@@ -1,0 +1,5 @@
+method,reward_mean,reward_sem,violation_percent_mean,violation_percent_sem,seeds,notes
+DL-PDAC,429.9,0.5,1.76,0.17,10,"Separate 10-seed baseline evaluation protocol"
+MADDPG-CBF,342.8,35.6,25.08,5.24,10,"Separate 10-seed baseline evaluation protocol"
+HATRPO,-64.5,4.3,64.71,0.00,10,"Separate 10-seed baseline evaluation protocol"
+PPO PID-Lagrangian,174.3,9.0,73.33,0.65,10,"Separate 10-seed baseline evaluation protocol"

@@ -1,0 +1,4 @@
+scale_n,reward_mean,reward_sem,violation_percent_mean,violation_percent_sem,episodes,seeds,notes
+4,219.8,0.2,1.23,0.05,1000,10,"Main navigation result"
+8,429.8,0.4,1.74,0.12,2000,10,"Main navigation result"
+20,1018.7,1.2,4.75,0.09,1500,10,"Main navigation result; k=1 communication setting"

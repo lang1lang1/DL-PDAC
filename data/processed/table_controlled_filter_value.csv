@@ -1,0 +1,7 @@
+scale_n,variant,eval_reward_mean,eval_reward_sem,eval_episode_violation_percent_mean,eval_episode_violation_percent_sem,eval_step_violation_percent_mean,eval_step_violation_percent_sem,reward_auc_mean,reward_auc_sem,communication_scalars_per_step,seeds,train_episodes,eval_episodes,notes
+8,Independent learning + filter,432.44,0.70,3.80,0.94,1.055,0.239,341.58,1.34,0,10,100,100,"Fixed runtime safety filter"
+8,Sparse distributed learning (k=2) + filter,433.56,0.79,2.60,0.95,0.612,0.256,342.87,0.78,5563,10,100,100,"Fixed runtime safety filter"
+8,Full communication + filter,434.21,0.63,1.80,0.71,0.397,0.215,342.89,1.02,11982,10,100,100,"Fixed runtime safety filter"
+20,Independent learning + filter,1021.53,1.60,3.10,1.56,0.604,0.350,807.10,1.14,0,10,100,100,"Fixed runtime safety filter"
+20,Sparse distributed learning (k=2) + filter,1022.46,1.12,0.50,0.40,0.189,0.147,810.48,0.90,22926,10,100,100,"Fixed runtime safety filter"
+20,Full communication + filter,1022.91,1.07,0.10,0.10,0.001,0.001,811.67,0.52,117730,10,100,100,"Fixed runtime safety filter"

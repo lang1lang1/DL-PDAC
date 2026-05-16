@@ -1,0 +1,13 @@
+metric,value,unit,notes
+audited_states,2000,count,"Representative controlled n=20 sparse k=2 navigation run"
+alpha_f,3.0,coefficient,"Runtime filter coefficient"
+mean_empirical_delta,0.4398,value,"Proxy mismatch component"
+p95_empirical_delta,1.4308,value,"Proxy mismatch component"
+mean_sampled_epsilon,0.0235,value,"Proxy infeasibility component"
+p95_sampled_epsilon,0.2445,value,"Proxy infeasibility component"
+mean_residual_delta_plus_epsilon,0.4633,value,"Reported in main text"
+p95_residual_delta_plus_epsilon,1.4530,value,"Reported in main text"
+mean_residual_slack,0.1544,ratio,"(delta+epsilon)/alpha_f"
+p95_residual_slack,0.4843,ratio,"(delta+epsilon)/alpha_f"
+full_eval_epsilon_zero_rate,88.91,percent,"Reported in main text"
+full_train_epsilon_zero_rate,100,percent,"Reported in main text"

@@ -1,0 +1,6 @@
+communication,reward_mean,reward_sem,episode_violation_percent_mean,episode_violation_percent_sem,reward_auc_mean,reward_auc_sem,communication_scalars_per_step,latency_ms_per_step_mean,latency_ms_per_step_sem,seeds,notes
+k=1,1023.51,1.11,0.20,0.20,810.33,1.22,11773,132.74,0.16,10,"Fixed runtime safety filter"
+k=2,1022.47,1.25,1.00,0.77,810.55,1.47,22926,133.52,0.29,10,"Fixed runtime safety filter"
+k=3,1023.32,1.04,0.40,0.40,811.36,0.81,33460,133.69,0.42,10,"Fixed runtime safety filter"
+k=4,1023.39,1.04,0.00,0.00,811.48,1.38,43374,133.70,0.92,10,"Fixed runtime safety filter"
+full,1023.31,1.05,0.20,0.20,812.51,0.56,117730,132.73,0.47,10,"Fixed runtime safety filter"

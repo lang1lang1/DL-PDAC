@@ -1,0 +1,6 @@
+variant,reward,violation_percent,reported_p_value_vs_full_without_filter,episodes,seeds,notes
+Full system without safety filter,179.7,29.60,,100,10,"Final 100 episodes"
+No dual consensus mixing,180.5,28.98,0.62,100,10,"Final 100 episodes"
+No Lyapunov critic,179.7,29.60,1.00,100,10,"Final 100 episodes"
+No distributed dual update,180.2,29.24,0.71,100,10,"Final 100 episodes"
+Full system with safety filter,219.4,1.58,"<0.001",100,10,"Final 100 episodes"

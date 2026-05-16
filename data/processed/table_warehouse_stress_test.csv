@@ -1,0 +1,6 @@
+method,eval_reward_mean,eval_reward_sem,items_per_episode_mean,items_per_episode_sem,episode_length_steps_mean,episode_length_steps_sem,deadlock_rate_percent_mean,deadlock_rate_percent_sem,robot_collision_step_rate_percent_mean,robot_collision_step_rate_percent_sem,boundary_contact_step_rate_percent_mean,boundary_contact_step_rate_percent_sem,seeds,notes
+DL-PDAC independent,-242.61,10.71,4.96,0.17,98.96,0.47,4.00,3.51,27.50,1.26,72.43,3.20,10,"Warehouse stress test; not deployment-level safety evidence"
+DL-PDAC sparse (k=2),-261.42,9.73,5.24,0.12,98.70,0.41,1.33,0.88,28.71,0.93,78.49,2.55,10,"Warehouse stress test; not deployment-level safety evidence"
+DL-PDAC full,-282.80,9.83,5.21,0.10,98.61,0.20,3.33,1.86,31.38,1.75,79.43,1.08,10,"Warehouse stress test; not deployment-level safety evidence"
+MAPO,-271.45,0.87,4.98,0.24,98.58,0.74,1.00,1.00,26.22,2.04,76.13,2.97,10,"Warehouse stress test; not deployment-level safety evidence"
+TeamComm,-259.83,60.48,4.50,0.78,98.72,0.77,1.67,1.67,26.20,8.21,57.01,25.53,10,"Warehouse stress test; not deployment-level safety evidence"

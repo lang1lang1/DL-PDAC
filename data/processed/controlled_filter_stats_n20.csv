@@ -1,0 +1,5 @@
+metric,mean_difference,hedges_g,raw_p_value,holm_p_value,comparison,notes
+Eval reward,0.938,0.206,0.637478,0.637478,"Sparse k=2 + filter vs independent + filter","Supplementary statistical detail for Table controlled_filter_value"
+Eval episode violation (%),-2.600,-0.752,0.013692,0.041078,"Sparse k=2 + filter vs independent + filter","Supplementary statistical detail for Table controlled_filter_value"
+Eval step violation (%),-0.415,-0.547,0.039541,0.159083,"Sparse k=2 + filter vs independent + filter","Supplementary statistical detail for Table controlled_filter_value"
+Reward AUC,3.374,0.998,0.013229,0.041036,"Sparse k=2 + filter vs independent + filter","Supplementary statistical detail for Table controlled_filter_value"
