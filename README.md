@@ -30,16 +30,6 @@ Large artifacts such as raw training logs and checkpoints are not part of this l
 
 See `data/processed/paper_data_manifest.csv` for a file-by-file map of the processed data files.
 
-## Environment
-
-Install dependencies with:
-
-```bash
-pip install -r requirements.txt
-```
-
-The code was developed with PyTorch, Gymnasium, PettingZoo, NumPy, SciPy, and Matplotlib. GPU execution is recommended for full training runs.
-
 ## Example Commands
 
 Navigation DL-PDAC run:
@@ -58,18 +48,6 @@ Warehouse sparse DL-PDAC stress test:
 
 ```bash
 python experiments/train_warehouse_benchmark_v2.py --algorithm dlpac_sparse_k2 --n_agents 10 --n_episodes 500 --seed 0 --device cuda
-```
-
-TeamComm is an external baseline. To run that baseline, clone TeamComm separately and set:
-
-```bash
-export TEAMCOMM_REPO_ROOT=/path/to/TeamComm
-```
-
-On Windows PowerShell:
-
-```powershell
-$env:TEAMCOMM_REPO_ROOT = "C:\path\to\TeamComm"
 ```
 
 ## Verification
