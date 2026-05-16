@@ -1,24 +1,22 @@
 # DL-PDAC Paper Artifact
 
-This repository contains the code and paper-authoritative processed data for the current DL-PDAC manuscript:
+This repository contains code and processed data for the DL-PDAC study:
 
 **Distributed Safe Multi-Agent Reinforcement Learning under Sparse Communication via Lyapunov Primal-Dual Actor-Critic**
 
-The package is intentionally curated for the reported manuscript. Historical logs, exploratory experiments, checkpoints, and LaTeX build files are not included.
+The package is a lightweight research artifact with source code, processed tables, and rendered figures.
 
 ## Repository Layout
 
 ```text
 src/                 Core environments, DL-PDAC, and baseline implementations.
 experiments/         Training, evaluation, and analysis entry points used for the reported experiments.
-data/processed/      Canonical paper values for tables, figures, residual audits, and diagnostics.
+data/processed/      Processed table, figure, residual-audit, and diagnostic data.
 figures/             Rendered figures used in the manuscript.
 scripts/             Lightweight repository checks.
 ```
 
-## Scope of Included Data
-
-`data/processed/` is the canonical data source for this release. When historical log summaries differed slightly from the manuscript, the manuscript values were treated as authoritative and written into the processed files.
+## Included Data
 
 Included:
 
@@ -28,9 +26,9 @@ Included:
 - Warehouse stress-test table and warehouse communication-throughput figure data.
 - Residual audit, controlled-comparison statistics, averaged-dual drift diagnostics, and controller-side timing values referenced by the manuscript.
 
-Large artifacts such as raw training logs, checkpoints, and historical intermediate summaries are not part of this lightweight release.
+Large artifacts such as raw training logs and checkpoints are not part of this lightweight release.
 
-See `data/processed/paper_data_manifest.csv` for a file-by-file map from manuscript item to processed data file.
+See `data/processed/paper_data_manifest.csv` for a file-by-file map of the processed data files.
 
 ## Environment
 
@@ -82,4 +80,4 @@ Run:
 python scripts/check_release.py
 ```
 
-The script checks key processed values against the manuscript.
+The script checks key processed values.
